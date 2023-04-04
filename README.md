@@ -32,3 +32,6 @@ I'm a senior developer with expertise in Node.js, React, and AWS. With 8 years o
 - [French](https://github.com/Roland29/Roland29/blob/main/resume/out/frenchResume.pdf)
 
 I am available for freelance projects and would love to hear about your project requirements. Feel free to contact me via email or LinkedIn.
+
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
