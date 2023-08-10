@@ -1,4 +1,4 @@
-*/**/.DS_Store
+**/.DS_Store
 .idea/
 /resume/out/*.aux
 /resume/out/*.log
