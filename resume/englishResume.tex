@@ -319,18 +319,6 @@
     \cvtext{#4}\\[14pt]
 }
 
-%---------------------------------------------------------------------------------------
-%	QR CODE
-%----------------------------------------------------------------------------------------
-
-% Renders a qrcode image (centered, relative to the parentwidth)
-% param 1: percent width, from 0 to 1
-\newcommand{\cvqrcode}[1] {
-    \begin{center}
-        \includegraphics[width={#1}\mpwidth]{qrcode}
-    \end{center}
-}
-
 
 %============================================================================%
 %
@@ -351,16 +339,16 @@
 %---------------------------------------------------------------------------------------
 %	META IMAGE
 %----------------------------------------------------------------------------------------
-            \includegraphics[width=\linewidth]{static/profilePicture.png}	%trimming relative to image size
+            \includegraphics[width=\linewidth]{static/profilePicture}	%trimming relative to image size
 
 %---------------------------------------------------------------------------------------
 %	META SKILLS
 %----------------------------------------------------------------------------------------
             \cvsection{SKILLS}
 
-            \cvskill{Javascript} {7+ yrs} {1} \\[-2pt]
+            \cvskill{Javascript} {8+ yrs} {1} \\[-2pt]
 
-            \cvskill{NodeJs} {7+ yrs} {1} \\[-2pt]
+            \cvskill{NodeJs} {8+ yrs} {1} \\[-2pt]
 
             \cvskill{React} {4+ yrs} {0.70} \\[-2pt]
 
@@ -415,7 +403,6 @@
             {Main thematic : Physiology, Genetics, Maths, Bioinformatics (Statistiques tests), Biochemistry, Molecular biology, Marine biology, Plant biology, Animal biology, Biotechnology, Population dynamics.}
 
             \vfill\null
-            \cvqrcode{0.7}
 
         \end{leftcolumn}
         \begin{rightcolumn}
@@ -455,16 +442,16 @@
             {Nov 21 - Jan 23}
             {Senior software developer}
             {Heyday by Hootsuite, Montreal, Canada}
-            {Development of an application to improve the web presence of businesses on different channels (Messenger, Twitter, Instagram, WhatsApp) via a dashboard to centralize all the channels and a chatbot on the web site.}
+            {Development of an application to improve the web presence of businesses on different channels (Messenger, Twitter, Instagram, WhatsApp) with a dashboard to centralize all the channels and a chatbot on the website.}
             {\cvlist{
-                \item Architecture design to move from a monolith to micro-services and a SaaS-type API
+                \item Architecture design to move from a monolith to microservices and a SaaS-type API
                 \item Integration of Hootsuite and Heyday software
                 \item Training new developers
                 \item Maintenance of existing infrastructure
                 \item Design and implementation of authentication and authorization services (SSO)
             }}
             {\cvlist {
-                \item NestJs, NodeJs, Micro-service, serverless, SaaS, Gitlab, Typescript, AWS, DynamoDb, Lambda, SQS
+                \item NestJs, Node.js, Micro-service, serverless, SaaS, Gitlab, Typescript, AWS, DynamoDb, Lambda, SQS
                 \item OpenAPI, Agile, project monitoring and planning, technical feasibility and technical debt study
             }}
 
@@ -482,7 +469,7 @@
                 \item POC on new technology
             }}
             {\cvlist {
-                \item NodeJs, Typescript, NoSql, cloudformation, AWS, Dynamodb, lambda, IAM, GitLab
+                \item Node.js, Typescript, NoSql, cloudformation, AWS, Dynamodb, lambda, IAM, GitLab
                 \item Agile, autonomy, functional and technical analysis, TDD, functional writing
             }}
 
@@ -498,11 +485,11 @@
                 \item Choice of technologies adapted to the project to limit the technical debt
                 \item Creation of a POC, and deployment of marketable versions
                 \item Management of a team of 5 developers
-                \item Design of micro-services architecture
+                \item Design of microservices architecture
                 \item Setting up continuous deployment with automatic tests  (TDD)
             }}
             {\cvlist {
-                \item AWS, NodeJs, NestJs, React, Typescript, GraphQl, MongoDB, Github, Météor
+                \item AWS, Node.js, NestJs, React, Typescript, GraphQl, MongoDB, GitHub, Meteor
                 \item Agile, Architecture design, team management
             }}
 

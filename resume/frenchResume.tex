@@ -141,7 +141,7 @@
 % custom column right-align with fixed width
 % use like p{size} but via x{size}
 \newcolumntype{x}[1]{%
-        >{\raggedleft\hspace{0pt}}p{#1}}%
+        >{\raggedleft\hspace{0pt}}p{1}}%
 
 
 %----------------------------------------------------------------------------------------
@@ -319,18 +319,6 @@
     \cvtext{#4}\\[14pt]
 }
 
-%---------------------------------------------------------------------------------------
-%	QR CODE
-%----------------------------------------------------------------------------------------
-
-% Renders a qrcode image (centered, relative to the parentwidth)
-% param 1: percent width, from 0 to 1
-\newcommand{\cvqrcode}[1] {
-    \begin{center}
-        \includegraphics[width={#1}\mpwidth]{qrcode}
-    \end{center}
-}
-
 
 %============================================================================%
 %
@@ -351,16 +339,16 @@
 %---------------------------------------------------------------------------------------
 %	META IMAGE
 %----------------------------------------------------------------------------------------
-            \includegraphics[width=\linewidth]{static/profilePicture.png}	%trimming relative to image size
+            \includegraphics[width=\linewidth]{static/profilePicture}	%trimming relative to image size
 
 %---------------------------------------------------------------------------------------
 %	META SKILLS
 %----------------------------------------------------------------------------------------
             \cvsection{SKILLS}
 
-            \cvskill{Javascript} {7+ yrs} {1} \\[-2pt]
+            \cvskill{Javascript} {8+ yrs} {1} \\[-2pt]
 
-            \cvskill{NodeJs} {7+ yrs} {1} \\[-2pt]
+            \cvskill{NodeJs} {8+ yrs} {1} \\[-2pt]
 
             \cvskill{React} {4+ yrs} {0.70} \\[-2pt]
 
@@ -398,7 +386,7 @@
 
             \cvmetaevent
             {2012 - 2013}
-            {Master de comp\'{e}tence compl\'{e}mentaire en informatique}
+            {Master de compétence complémentaire en informatique}
             {Universit\'e de Rennes 1}
             {Cours principaux : Introduction \`a la programmation ({\em caml}), Programmation 1 et 2 ({\em Java}), Conception Web ({\em HTML, CSS, PHP, JavaScript, Ajax}), Algorithme 1 et 2 ({\em C++}), {\em XML}, Langage {\em C}, {\em C++}, Analyse ({\em UML}), Syst\`eme 1 et 2 ({\em Assembly, Java}), Base de donn\'ees ({\em MySql}), caor.}
 
@@ -415,7 +403,6 @@
             {Cours principaux : Physiologie, G\'en\'etique, Maths, Bioinformatique (Tests Statistiques), Biochimie, Biologie Mol\'eculaire, Biologie Marine, Biologie V\'eg\'etale et Animale, Biotechnologie, Dynamiques de population.}
 
             \vfill\null
-            \cvqrcode{0.7}
 
         \end{leftcolumn}
         \begin{rightcolumn}
@@ -457,14 +444,14 @@
             {Heyday by Hootsuite, Montr\'eal, Canada}
             {Développement d’une application pour améliorer la présence web des commerces sur les différents canaux (Messenger, Twitter, Instagram, WhatsApp) via un dashboard pour centraliser tous les canaux et un chatbot sur le site e-commerce.}
             {\cvlist{
-                \item Conception d’architecture pour passer d’un monolithe à du micro-service et une API type SaaS
+                \item Conception d’architecture pour passer d’un monolithe à du microservice et une API type SaaS
                 \item Intégration des logiciels Hootsuite et Heyday
                 \item Formation des développeurs sur l’API et le backend Heyday
                 \item Maintenance de l'infrastructure exitante
                 \item Conception et mise en place des services d’authentification et d’autorisation (SSO)
             }}
             {\cvlist {
-                \item NestJs, NodeJs, Micro-service, serverless, SaaS, Gitlab, Typescript, AWS, DynamoDb, Lambda, SQS
+                \item NestJs, Node.js, Micro-service, serverless, SaaS, Gitlab, Typescript, AWS, DynamoDb, Lambda, SQS
                 \item OpenAPI, Agile, suivi et planification de projects, étude de faisabilité technique et  de dette technique
             }}
 
@@ -482,7 +469,7 @@
                 \item POC sur de nouvelle technologie
             }}
             {\cvlist {
-                \item NodeJs, Typescript, NoSql, cloudformation, AWS, Dynamodb, lambda, IAM, GitLab
+                \item Node.js, Typescript, NoSql, cloudformation, AWS, Dynamodb, lambda, IAM, GitLab
                 \item Agile, autonomie, analyse fonctionnelle et technique, TDD, rédaction fonctionnelle
             }}
 
@@ -502,7 +489,7 @@
                 \item Mise en place du déploiement continu avec les tests automatiques (TDD)
             }}
             {\cvlist {
-                \item AWS, NodeJs, NestJs, React, Typescript, GraphQl, MongoDB, Github, Météor
+                \item AWS, Node.js, NestJs, React, Typescript, GraphQl, MongoDB, GitHub, Météor
                 \item Méthode Agile, Conception d'architecture, gestion d'équipe
             }}
 
